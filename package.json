@@ -1,0 +1,23 @@
+{
+  "name": "octra-auto-tx",
+  "version": "2.0.0",
+  "description": "🍤 Pempek Lahat - Octra Auto-TX Multi-Wallet System",
+  "main": "pempek.js",
+  "scripts": {
+    "start": "node pempek.js",
+    "pempek": "node pempek.js",
+    "setup": "node setup.js",
+    "info": "node pempek.js",
+    "test": "echo 'Run npm start to begin Pempek Lahat Auto-TX'"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1",
+    "dotenv": "^16.3.0",
+    "moment-timezone": "^0.5.44"
+  },
+  "keywords": ["octra", "blockchain", "automation", "testnet", "pempek", "multi-wallet"],
+  "author": "Pempek Lahat Dev",
+  "license": "MIT"
+}
